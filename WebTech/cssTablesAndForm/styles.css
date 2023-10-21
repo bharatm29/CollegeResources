@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+/*Table specific attributes!*/
+
+/* table{
+    border: 0.25rem solid red;
+    border-collapse: collapse;
+    border-spacing: 0.5em;
+}
+
+th {
+    border: 0.15em solid green;
+    background-color: skyblue;
+}
+
+td {
+    padding: 0.25em;
+    text-align: right;
+    border: 0.15em dotted blue;
+    vertical-align: bottom;
+} */
+
+/* p{
+    column-count: 4;
+    column-gap: 0.5rem;
+    column-rule: 0.125rem solid red;
+} */
+
+/*Selectors in css*/
+/* h1.firstHeading {
+    color: red;
+}
+
+.secondHeading{
+    color: hotpink;
+} */
+
+.first{
+    color: green;
+
+}
+
+.second{
+    color: red;
+}
+
+.third{
+    color: blue;
+}
+
+#para{
+    color: red;
+    letter-spacing: 0.15em;
+    word-spacing: 0.15em;
+}
+
+/*form css*/
+#user {
+    background-color: bisque;
+    padding-inline: .35em;
+    padding-block: 0.15em;
+
+    color: brown;
+}
+
+#pass {
+    background-color: bisque;
+    padding-inline: .35em;
+    padding-block: 0.15em;
+
+    color: brown;
+}
+
+#pass:focus {
+    background-color: brown;
+    color: bisque;
+}
+
+#user:focus {
+    background-color: brown;
+    color: bisque;
+}
+
+body {
+    background-color: beige;
+}
