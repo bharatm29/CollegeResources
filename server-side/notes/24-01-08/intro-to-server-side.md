@@ -5,7 +5,7 @@ Creating in 1994 and in market in 1995
 It stands for Hypertext Preprocessor.
 It can embedded into HTML
 
-#### What is OOL
+#### What is OOP
 
 1. Object -> realtime entity that exists
 2. Class -> group of related concepts like a car contains wheels, steering wheel, can move upward and backward. Combining features and functions together.
