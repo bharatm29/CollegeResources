@@ -1,0 +1,12 @@
+{
+    "plugins": {
+        "phpstan": {
+            "enabled": true,
+            "configuration": "phpstan.neon"
+        },
+        "php-cs-fixer": {
+            "enabled": true,
+            "configuration": ".php_cs"
+        }
+    }
+}
