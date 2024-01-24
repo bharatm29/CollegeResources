@@ -44,3 +44,25 @@ else if ($marks >= 80 && $marks < 100){
     echo "A grade";
 }
 echo "<br>";
+
+$num = 20;
+
+switch ($num) {
+    case 10:
+        echo "Num value is 10";
+        break;
+
+    case 20:
+        echo "Num value is 20";
+        break;
+
+    case 30:
+        echo "Num value is 30";
+        break;
+
+    default:
+        echo "Num is not to equal 10, 20, 30: ".$num;
+}
+
+//taking input from user => input.php
+
