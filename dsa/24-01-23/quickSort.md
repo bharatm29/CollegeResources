@@ -14,7 +14,7 @@ j
 First comparing value of idx and p and if arr[idx] < arr[p] then swap if not move the pointer to the next location
 
 8 7 6 1 0 9 2(same so we move on)
-^  ^         ^
+^  ^        ^
 j i         p
 
 8 7 6 1 0 9 2(same so we move on)
