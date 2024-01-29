@@ -20,6 +20,12 @@ How will you describe these:(How can we tell these elements exist)
 
 5. Water - taste(==ras)
 
-Anna maye kosh is comprise of panch ... or above 5 subtle elements. It is sustained by food
+Anna maye kosh is comprise of panch ... or above 5 subtle elements. It is sustained by food. It's out physical body.
 
 Assignment - What is anna maye kosh made up of. What sustains it. What can affect it?
+
+Contraction is action of our musle.
+
+FIXME: find the answer
+
+Mules that are contracted are more strong
