@@ -37,6 +37,8 @@ It is a measure which evaluates the *order of the count of operations*, performe
 
 **Complexity** is approximation of the numer of steps necessary to execure an algorithm.
 
+For finding the complexity, we find the fastest growing term and get rid of the constants.
+
 ---
 Time complexity:
 1. Linear O(n)
