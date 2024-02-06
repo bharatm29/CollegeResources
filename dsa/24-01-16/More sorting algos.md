@@ -14,18 +14,19 @@ It works the way we sort playing cards in our hands.
 arr = [4 3 2 10 12 1 5 6]
 
 4 3 2 10 12 1 5 6
-   ^
-key
+  ^
+ key
+
 here since 3 is less than 4 we swap them
 
 3 4 2 10 12 1 5 6
-   \   ^
-   \ key
+    ^
+   key
 here we compare 2 with all the left values
 
 2 3 4 10 12 1 5 6
-   \      ^
-   \     key
+      ^
+     key
 
 here 10 is the greatest out of left values,
 
