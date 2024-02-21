@@ -8,5 +8,5 @@ echo "Current date in dd/MM/yyyy format: ".date("d/M/Y")."<br>";
 echo "Current date in DD/MM/yyyy format: ".date("D/M/Y")."<br>";
 
 //a or A means whatever am or pm currently is.
-echo "Current time in hh:MM:SS am format: ".date("h:i:s a")."<br>";
+echo "Current time in hh:MM:SS am format: ".date("h:i:s a")."<br>\n";
 ?>
