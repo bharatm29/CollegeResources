@@ -7,7 +7,7 @@ echo strpos($str, "is")."\n";
 
 print_r(preg_split("/\s+/", $str));
 
-echo date("d/m/y A")
+echo date("d/m/y A");
 echo "\n";
 
 print_r(explode(" ", $str));
@@ -67,5 +67,5 @@ var_dump($arr);
 unset($arr);
 date_default_timezone_set("Asia/Calcutta");
 
-echo date("d/m/y A")
+echo date("d/m/y A");
 ?>
