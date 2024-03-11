@@ -9,10 +9,15 @@
  
  * Cookie must be set before the html.
  * If we didn't provide an expire the default is 0 so it expires the moment we exit the site.
+
+ * There are two types of cookies => session and persistent
+ * Session cookie expires as we leave the browser
+ * Persistent means persistent cookie.
 */
 
 // we use setcookie to fiddle with cookies
 
+/*
 setcookie("name", "value");
 setcookie("name2", "value2", time() + (1 * 24 * 60 * 60));
 
@@ -25,8 +30,17 @@ if(isset($_COOKIE['name2'])) {
     echo "Value for cookie 'name2' => ".$_COOKIE['name2']."<br>";
 }
 
-/*
- * There are two types of cookies => session and persistent
- * Session cookie expires as we leave the browser
- * Persistent means persistent cookie.
+// To delete the cookie
+setcookie("name", "value", time() - 60);
+
  */
+
+// Cookie program
+
+if ($_COOKIE){
+    if ($_COOKIE['create']){
+        $name = $_POST['name'];
+        $age = $_POST['age'];
+        $city = $_POST['city'];
+    }
+}
