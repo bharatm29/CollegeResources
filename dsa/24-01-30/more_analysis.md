@@ -92,6 +92,7 @@ def calSum(arr):
 
 $$T = O(1) + n*n*O(1) + O(1)$$
 
+
 $$T = c1 + n^2 * O(1) + c2 \ where \ c1=c2=O(1)=constants$$
 
 $$T = c3 + n^2*c4\ where\ c3=c1+c2\ and\ c4=O(1)$$
