@@ -1,11 +1,11 @@
-# Searching techniques
+## Searching techniques
 
 #### Two categories
 
-1. Sequential Search: Linear search. We go through every element and compares the elements.
+1. Sequential Search or Linear search: We go through every element and compares the elements.
 2. Interval search: Binary search
 
-## Linear search
+### Linear search
 
 It's a traditional approach for searching an element in a collection of elements.
 
@@ -15,26 +15,27 @@ When the element is **matched** successfully, it returns the index of the elemen
 
 We are going one after another, we are not jumping ships.
 
-Best O(1) and O(N)
+Best $O(1)$ and $O(N)$
 
-## Binary search
+### Binary search
 
 Dividing the array into two parts and middle element is compared to determine the next state.:
 
 This comes under divide and conquer
 
 There can be two scenarios with an array:
+
 1. Array is not sorted :- use linear
 
 2. Array is sorted:- apply BS and reduce the TC
 
 Procedure:-
 
-1. Find the mid element => mid = FLOOR((L + R) / 2). If the mid element is what we are searching for then return that element.
+1. Find the mid element => $mid = floor(\frac{L + R}{2})$. If the mid element is what we are searching for then return that element.
 
 2. We will compare mid value with the value we are looking for.
-    1. If midVal < val => traverse right side
-    2. If midVal > val => traverse left side
+   1. If midVal < val => traverse right side
+   2. If midVal > val => traverse left side
 
 ---
 
@@ -55,3 +56,5 @@ we repeat this until we found val
 
 If the question gives unsorted array and tells us to do BS. Then if it's for 2 marks then just write a line stating the sorted array.
 If not for 2 marks but for 10 then sort it then BS
+
+---

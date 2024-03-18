@@ -1,15 +1,12 @@
-[[dsa MOC]]
-
-# Insertion sort
+## Insertion sort
 
 It works the way we sort playing cards in our hands.
 
 
-
-* We start by making the second element of the given array as the key.
-* We compare the key to the element before it ie., the 0th index and compare and put the element.
-* Then we make the third element of the array as key and repeat the comparison.
-* Repeat until the array is sorted.
+- We start by making the second element of the given array as the key.
+- We compare the key to the element before it ie., the 0th index and compare and put the element.
+- Then we make the third element of the array as key and repeat the comparison.
+- Repeat until the array is sorted.
 ---
 arr = [4 3 2 10 12 1 5 6]
 
@@ -78,8 +75,3 @@ here 5 will be placed after 4
 \            key
 
 1 2 3 4 5 6
-
-
-
-
-

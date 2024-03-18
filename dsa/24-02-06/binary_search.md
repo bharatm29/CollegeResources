@@ -1,4 +1,4 @@
-# Binary Search
+## Binary Search
 
 1. Start by finding out the mid value. Using mid = FLOOR(L + R / 2);
 2. If middle element is what we are looking for then return that index otherwise move to the next step

@@ -1,6 +1,7 @@
-# Sorting technique
+## Sorting technique
 
-Sorting is arrangement based upon certain conditions not just ascending and descending. An order is followed.
+Sorting is arrangement based upon certain conditions, not just ascending and descending. An order is followed.
+
 It is easy to search and retrieve when data is sorted or placed in particular order.(book example)
 
 Sorting arranges data in a sequence by using specific criteria which makes searching easier.
@@ -8,7 +9,7 @@ Main objective of data sorting is to make the searching easier and efficient.
 
 We have different sorting algorithms because they have different TS complexity and produces the result in different ways.
 
-# Bubble sort
+### Bubble sort
 
 It is used to arrange N elements in ascending order.
 
@@ -33,10 +34,14 @@ Add the steps properly with explanation of if there is swapping or not with acce
 
 Example:
 
+> [!WARNING]
+> Open All the sorting markdown in raw file mode to view the arrow pointers correctly.
+
 ---
 arr = [5 4 3 2 1]
 
-Pass 1
+> Pass 1
+
 5 4 3 2 1 (here arr[0] is swapped with arr[1] because arr[0] > arr[1])
 | ^
 |_|
@@ -59,7 +64,8 @@ After this we have to repeat the steps with the new list.
 This is called Bubble sort because with each iteration the largest element is at the end of the list.
 
 
-Pass 2
+> Pass 2
+
 4 3 2 1 5
 | ^
 |_|
@@ -74,7 +80,8 @@ Pass 2
 
 3 2 1 4 5
 
-Pass 3
+> Pass 3
+
 3 2 1 4 5
 | ^
 |_|
@@ -85,7 +92,8 @@ Pass 3
 
 2 1 3 4 5
 
-Pass 4
+> Pass 4
+
 2 1 3 4 5
 | ^
 |_|
@@ -95,7 +103,8 @@ Pass 4
 ---
 arr = [4, 9, 5, 1, 0]
 
-Pass 1
+> Pass 1
+
 4 9 5 1 0 (No swapping takes place here because arr[0] < arr[1])
 | ^
 |_|
@@ -114,7 +123,8 @@ Pass 1
 
 4 5 1 0 9
 
-Pass 2
+> Pass 2
+
 4 5 1 0 9
 | ^
 |_|
@@ -133,7 +143,8 @@ Pass 2
 
 4 1 0 5 9
 
-Pass 2
+> Pass 3
+
 4 1 0 5 9
 | ^
 |_|
@@ -144,21 +155,24 @@ Pass 2
 
 1 0 4 5 9
 
-Pass 3
+> Pass 4
+
 1 0 4 5 9
 | ^
 |_|
 
 0 1 4 5 9
 
-Pass 4
+> Pass 5
+
 0 1 4 5 9(Array is sorted after 3 passes)
 
 ---
 
 arr = [8 22 7 9 31 5 13]
 
-Pass 1
+> Pass 1
+
 8 22 7 9 31 5 13(No swapping)
 | ^
 |_|
@@ -185,7 +199,8 @@ Pass 1
 
 8 7 9 22 5 13 31(Largest element at the end of the iteration)
 
-Pass 2
+> Pass 2
+
 8 7 9 22 5 13 31
 | ^
 |_|

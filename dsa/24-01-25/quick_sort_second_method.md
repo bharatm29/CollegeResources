@@ -1,4 +1,4 @@
-# Quick Sort
+## Quick Sort Second method
 
 The second considers two pointers P and Q. P tranverse from start to the end and Q traverse from end to start.
 P is going to stop when it comes accross a values which is greater than the pivot value
@@ -18,6 +18,9 @@ Basic Algorithm
 4. If P and Q are not crossing each other then swap values at P and Q.
 
 ---
+
+> [!WARNING]
+> Open raw file to view the arrow pointers correctly.
 
 arr = [35 50 15 25 80 20 90 45]
 
@@ -54,4 +57,37 @@ Q        p   P
 Now the list is divided into two separate list at the pivot and same process is continued
 
 ---
+```cpp
+int pivot(vector<int>& v, const int low, const int high){
+    const int pivotVal = v[low];
 
+    int P = low;
+    int Q = high;
+
+    while(P < Q){
+        while(P < high && v[P] <= pivotVal){
+            P++;
+        }
+        while(Q > 0 && v[Q] > pivotVal){
+            Q--;
+        }
+        if(P < Q){
+            swap(v[P], v[Q]);
+        }
+    }
+
+    swap(v[Q], v[low]);
+
+    return Q;
+}
+
+void quickSort(vector<int>& v, const int low, const int high){
+    if(low >= high){
+        return;
+    }
+    const int pivotIndex = pivot(v, low, high);
+    quickSort(v, low, pivotIndex - 1);
+    quickSort(v, pivotIndex + 1, high);
+}
+```
+---

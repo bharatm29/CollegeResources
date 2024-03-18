@@ -4,9 +4,13 @@
 2. The smallest element is swapped with the leftmost element and that element becomes part of the sorted array.
 3. The technique is repeated until the array is sorted.
 
-This is not suitable for large data sets.
+> [!CAUTION]
+> This is not suitable for large data sets.
 
 ---
+
+> [!WARNING]
+> Open All the sorting markdown in raw file mode to view the arrow pointers correctly.
 
 arr = [3 9 6 1 2]
 
@@ -49,8 +53,8 @@ arr = [6 2 11 7 5]
       |
 
 ---
-
-We can also consider the maximum by putting our pointer initially at the end instead of the at the start.
+> [!NOTE]
+> We can also consider the maximum by putting our pointer initially at the end instead of the at the start.
 
 ---
 

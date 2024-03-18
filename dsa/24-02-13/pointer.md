@@ -4,10 +4,11 @@
 
 You can access a variable in two ways
 
-1. Direct access -> use the variable name to access the variable
-2. Indirect Address -> Use a pointer to access that variable
+1. **Direct access**: use the variable name to access the variable
+2. **Indirect Address**: Use a pointer to access that variable
 
 ## What is a pointer
+
 Pointer allows us to store the memory address of another variable.
 
 Pointer holds the address where the data resides in the computer memory.
@@ -15,11 +16,13 @@ Pointer holds the address where the data resides in the computer memory.
 Pointer allow different functions to share and modify these variables.
 
 #### Advantages of Pointers
+
 Pointers are powerful tools for managing memory and optimizing DS.
 
 Key points:-
 
 **Address reference**
+
 **Dereference**
 
 ```c

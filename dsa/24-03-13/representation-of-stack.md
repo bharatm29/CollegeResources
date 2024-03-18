@@ -1,7 +1,8 @@
 #### Stack is an ADT
 
 Stack is an abstract data type since it's implementation can be done using arrays or linked list.
-What is underneath doesn't really matter since the interface stack is the same.
+
+What is underneath doesn't really matter since the interface stack is the same and it's what we will work with as an ADT.
 
 ---
 
@@ -13,6 +14,7 @@ What is underneath doesn't really matter since the interface stack is the same.
 ---
 
 **Overflow** when the array is full and we are trying to insert into it.
+
 **Underflow** when the array is empty and we are trying to delete from it.
 
 So in insertion and deletion is checking for overflow and underflow is common.

@@ -71,8 +71,8 @@ last = three;
 
 ## Circular Doubly linked list
 
-The next pointer of last node points to the head.
+The `next` pointer of `last` node points to the `head`.
 
-The prev pointer of head node points to last
+The `prev` pointer of `head` node points to `last`
 
-Q: What is the difference between circular singly and doubly linked list.
+> Q: What is the difference between circular singly and doubly linked list.

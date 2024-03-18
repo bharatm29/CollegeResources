@@ -1,7 +1,5 @@
 ## Applications of Stack
 
----
-
 ### Evaluation of arithmetic expressions
 
 Arithmetic expression consists of:
@@ -15,28 +13,28 @@ Arithmetic expression consists of:
 
 ---
 
-**How a stack can be used to solve mathematical expressions?**
+> **How a stack can be used to solve mathematical expressions?**
 
 ---
 
 Three ways to represent arithmetic expressions:
 
-- Infix: A + B
-- Postfix (reverse polish notation): A B +
-- Prefix (polish notation): + A B
+- Infix: $A + B$
+- Postfix (reverse polish notation): $A B +$
+- Prefix (polish notation): $+ A B$
 
 ---
 
 #### Infix to Postfix
 
-- (A + B) _ C => AB+C_
+- $(A + B) - C$ => $AB+C-$
 
-- (A+B)/(C-D) => AB+CD-/
+- $(A+B)/(C-D)$ => $AB+CD-/$
 
-- a + b _ c - d / e * f => abc*+-ef*/
+- $A + B * C - D / E * F$ => $ABC*+DE/*F-$
 
-- a + [(b + c)-(d+e)*f] / g => abc+de+-f*g/+
+- $A + [(B + C)-(D+E)*F] / G$ => $ABC+DE+F*-G/+$
 
-- (a+b) * c / d +  e ^ f / g
+- $(A+B) * C / D +  E ^ F / G$ => $AB+C*DEF^G/+/$
 
 ---

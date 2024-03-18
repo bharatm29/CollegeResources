@@ -51,7 +51,7 @@ or
 
 ---
 
-### Loops
+##### Loops
 
 Q: Write an algorithm to find the factorial of a number
 
@@ -86,7 +86,3 @@ or
 ---
 
 An algorithm should be easy to understand, concise, efficient.
-
----
-
-Next:- Why do we need analysis.

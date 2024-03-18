@@ -1,26 +1,22 @@
 # Doubly linked list
 
-**How to identify the first and last node of the list**
+> **How to identify the first and last node of the list**
 
-prev of first node points to NULL and for the last node, next points to NULL
+`prev` of first node points to `NULL` and for the last node, `next` points to `NULL`
 
-Q: Describe construction of doubly linked list. How it is different from singly linked list.
-A: 
+---
+
+> Q: Describe construction of doubly linked list. How it is different from singly linked list.
 
 ### Advantage of doubly over singly linked list.
-A: It is very easy to access previous node in the list. You can easily in forward or backward direction.
+
+It is very easy to access previous node in the list. You can easily in forward or backward direction.
+
 When we are deleting a node in singly linked list, prev node pointer is required. However in DLL, there is prev pointer already thus pointer projection is easy.
 
 ### Disadvantages
 
 Extra spaces is required. All operations require an extra pointer previous to be maintained.
-
----
-
-Algorithm to insert at the start
-
-1. Start
-2. Xs
 
 ---
 

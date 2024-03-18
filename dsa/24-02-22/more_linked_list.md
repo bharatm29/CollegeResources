@@ -7,8 +7,6 @@
 
 # List traversal
 
----
-
 **Write an algorithm to traversing the list.**
 
 1. Start
@@ -37,6 +35,6 @@
 
 ---
 
-**Write algorithm to delete node**
+> **Write algorithm to delete node**
 
 ---

@@ -1,9 +1,10 @@
 # Analyzing a algorithm
 
-Analysis of algorithm is the process of analyzing the problem solving capability of the algorithm in terms of the time and size required.
+Analysis of algorithm is the process of analyzing the problem solving capability of the algorithm in terms of time and space required.
 
-The term "analysis of algorithms" was coined by Donald knuth.
-(Example of sum of numbers we did in earlier notes. One with for loop and one with the formula)
+The term **"analysis of algorithms"** was coined by **Donald Knuth**.
+
+(Example of sum of numbers we did in the first class. One with for loop and one with the formula)
 
 ## Types of analysis
 
@@ -13,34 +14,38 @@ The term "analysis of algorithms" was coined by Donald knuth.
 
 ---
 
-For the worst case example, let's say we are finding an element in an array, so if the number is present in the last place or is simply not
-present is the worst case.
+For the worst case example, let's say we are finding an element in an array, so if the number is present at the last place or is simply not present is the worst case.
 
-Q: What is analysis of an algorithm? What are different types of analysis
+> Q: What is analysis of an algorithm? What are different types of analysis
 
-For each sorting algos, we will find out all the cases.
+For each sorting algorithms, we will find out all the cases.
 
 ---
 
-### Asymtotic Notation (also known as Big-Oh notation)
+### Asymptotic Notation (also known as Big-Oh notation)
 
 It refers to the growth of the algorithm with the input i.e, **n**.
 
-If your input growth is increased, but if the time is remaining constant, then that algorithm is good enough.
-Slower the asymtotic growth rate the better the algorithm.
+If your input growth is increased, but if the time constant, then that algorithm is good enough.
+
+Slower the asymptotic growth rate the better the algorithmic complexity.
+
+$$growth\ rate \propto \frac{1}{complexity}$$
 
 ---
 
 ### Algorithm complexity
 
-It is a measure which evaluates the *order of the count of operations*, performed by a given algorithm as the function of size of the input data.
+It is a measure which evaluates the _order of the count of operations_ performed by a given algorithm as the function of size of the input data.
 
-**Complexity** is approximation of the numer of steps necessary to execure an algorithm.
+**Algorithm Complexity** is approximation of the number of steps necessary to execute an algorithm.
 
 For finding the complexity, we find the fastest growing term and get rid of the constants.
 
 ---
+
 Time complexity:
-1. Linear O(n)
-2. Constant time O(1)
-3. Quadratic time O(n^2)
+
+1. Linear $O(n)$
+2. Constant time $O(1)$
+3. Quadratic time $O(n^{2})$
