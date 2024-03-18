@@ -6,12 +6,12 @@ for (i = 0; i <= n; i++){
 }
 ```
 
-$$
-T = O(1) * n\\
-T = c1 * n\\
+```math
+T = O(1) * n
+T = c1 * n
 
 T = O(n)
-$$
+```
 
 This is $O(n)$ or linear since the time complexity changes linearly with $n$
 
@@ -41,14 +41,13 @@ for (i = 0; i <= n; i++){
 }
 ```
 
-$$
-T = O(1) + O(1) * n + O(1) * n\\
-T = c1 + c2 * n + c3 * n\\
-T = 2n\\
-T = n\\
-\ \\
+```math
+T = O(1) + O(1) * n + O(1) * n
+T = c1 + c2 * n + c3 * n
+T = 2n
+T = n
 O(n)
-$$
+```
 
 ---
 
@@ -99,12 +98,14 @@ If on increasing the input, the number of steps only increase by one then it's l
 
 Just be aware of these time complexities
 
-$$O(n * log(n))$$
+```math
+O(n * log(n))
 
-$$O(n^3)$$
+O(n^3)
 
-$$O(2^n)$$
+O(2^n)
 
-$$O(N!)$$
+O(N!)
 
-$$O(n^k)$$
+O(n^k)
+```
